@@ -526,6 +526,58 @@ registerQuestions("questions/week4.js", [
     ],
     answer: 1,
     explanation: "Multi-framework application: Ross — Justice (arbitrary, opaque classification violates fair and unbiased treatment); Fidelity (the state owes transparency to citizens it governs); Non-maleficence (false positive investigations cause serious economic and reputational harm). Kant — denying citizens the ability to understand and contest decisions that affect them prevents them from exercising rational agency in their own defence. It treats citizens as data points to be processed rather than autonomous agents with dignity. This mirrors the Robodebt-type concerns from Week 2, now analysed through Week 4's deontological lens."
+  },
+
+  // ─────────────────────────────────────────────
+  // FROM TRANSCRIPT: SELF-EXCEPTION & PUNISHMENT
+  // ─────────────────────────────────────────────
+
+  {
+    q: "In the lecture, a man cheats on his partner but becomes furious when he discovers she has also been cheating on him. He says: 'You can't do that to me!' What contradiction does Kant's first categorical imperative expose here?",
+    options: [
+      "His partner violated the duty of Fidelity, which is always a stronger duty than Beneficence",
+      "He implicitly holds the maxim 'I may cheat but others may not cheat on me' — this violates universalisability: moral rules cannot include exceptions for oneself; if cheating is wrong for her, the same maxim must apply to him equally",
+      "His anger shows he has a good will, which is morally admirable under Kant",
+      "This is a Ross scenario, not a Kantian one, because it involves a conflict between Fidelity and Beneficence"
+    ],
+    answer: 1,
+    explanation: "This classroom example from the lecture illustrates universalisability perfectly. The man acts on the hidden maxim: 'cheating is permitted for me but forbidden for others.' Kant's formula of universal law demands consistency — moral rules must apply to everyone equally, including yourself. You cannot demand honesty from others while exempting yourself. The moment you universalise 'I may cheat,' it must apply to your partner too — exposing the self-contradiction in his indignation."
+  },
+
+  {
+    q: "The lecture raises Kant's view on punishment with a striking scenario: if only two people remain in the world and one has committed mass murder, Kant says the murderer should still be punished (put to death). A utilitarian disagrees. What is the reasoning behind each position?",
+    options: [
+      "Kant: punishment is never justified; Utilitarian: punishment prevents future crime so is always justified",
+      "Kant: the murderer must be punished because to ignore their crimes would fail to treat them as a responsible autonomous agent capable of being held accountable — doing right by duty, regardless of consequences; Utilitarian: punishing the only other human reduces total world happiness with no benefit (no deterrence, no protection) and is therefore wrong",
+      "Kant: punishment increases deterrence for future generations; Utilitarian: moral rules prohibit killing under any circumstances",
+      "Both agree punishment is required but disagree on the method"
+    ],
+    answer: 1,
+    explanation: "This is a sharp contrast from the transcript. Kant holds that punishment is not about consequences (deterrence, public safety) but about justice and treating the offender as a responsible moral agent. To let a murderer go unpunished is to fail to take their moral agency seriously — it treats them as if they were not capable of being held accountable. The utilitarian response: with only two people left, punishment produces no deterrent effect and only reduces total happiness, so it is wrong. Kant's absolutism leads to the counterintuitive result that punishment is required even in this extreme case."
+  },
+
+  {
+    q: "A student in the lecture argues: 'When Ross resolves duty conflicts by looking at which option causes less harm or more benefit, isn't he just doing utilitarianism secretly?' How would a Rossian deontologist respond?",
+    options: [
+      "The student is correct — Ross is ultimately a utilitarian who uses different vocabulary",
+      "Ross considers consequences when applying duties like Beneficence and Non-maleficence, but the difference is that consequences don't collapse into a single maximisation principle; duties remain separate, irreducible rules, and sometimes a promise (Fidelity) overrides a minor harm even when breaking the promise would produce slightly better outcomes — something pure utility calculation would never allow",
+      "Ross never considers consequences at all — only the identity of the duty matters",
+      "The student is correct, but this is a strength of Ross's theory, not a criticism"
+    ],
+    answer: 1,
+    explanation: "This is the lecture's subtle but important point. Ross acknowledges that some duties (Beneficence, Non-maleficence) naturally reference outcomes. But this is not the same as reducing everything to utility maximisation. Example: you might keep a serious promise even if breaking it would produce slightly better consequences overall — Fidelity can override minor utility gains. A utilitarian would never allow this. The duties are genuinely independent rules, not just utility proxies with different names."
+  },
+
+  {
+    q: "A student raises a concern in the lecture: the duty of Gratitude could be corrupted — if people perform duties merely to receive gratitude in return, it starts to look like corruption or nepotism. What does this reveal about how Ross's duties should be applied?",
+    options: [
+      "It reveals that Gratitude is not actually a duty and should be removed from Ross's list",
+      "It reveals that how duties are interpreted and applied requires judgment: duties can be distorted if performed for the wrong reasons or interpreted too narrowly; the duty of Gratitude is genuine, but genuine gratitude means acknowledging kindness freely, not transactional repayment that corrupts into favouritism",
+      "It reveals that Ross's framework collapses into egoism when applied to social relationships",
+      "It reveals that all seven duties are equally prone to corruption and therefore unreliable"
+    ],
+    answer: 1,
+    explanation: "From the transcript: a student points out that performing the duty of Gratitude to receive something back resembles corruption. The lecturer agrees this is a corruption of the duty. This illustrates that Ross's framework is not a mechanical rule-following system — it requires judgment about what a duty genuinely demands versus distorted or self-interested versions of it. Gratitude as 'I'll scratch your back if you scratch mine' misses the point; genuine gratitude acknowledges received kindness without expectation of return."
   }
 
 ]);
